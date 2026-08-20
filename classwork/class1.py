@@ -29,7 +29,13 @@ import os
 # os.rename("folder","classwork")
 
 # use a function to check whether the this is a file
-print(os.path.isfile("class1.py"))
+# print(os.path.isfile("class1.py"))
 
 # use a function to check whether the this is a folder
-print(os.path.isdir("classwork"))
+# print(os.path.isdir("classwork"))
+
+# Write a method to remove the file 
+# os.remove("rough.py")
+
+# write a method to remove the directory
+os.rmdir("rough")

@@ -13,7 +13,7 @@ def get_single_digit_sum(number):
             number //= 10            
         number = digit_sum            
     return number
-  
+
 try:
     user_input = int(input("Enter an integer: "))
     result = get_single_digit_sum(user_input)

@@ -28,7 +28,7 @@ average_marks = 0
 for i in range(len(student)):
     average_marks += student[i]
 
-print(f"Average marks: ",average_marks // len(student))     
+print(f"Average marks: ",average_marks / len(student))     
         
 # Total number of student passed 
 count = 0

@@ -7,7 +7,7 @@ value = int(input("Enter value to search: "))
 pos = -1
 for i in my_tuple:
     if value == my_tuple[i]:
-        pos = i
+        pos = i 
         break
     
 print(f"Position of the given value {value} is: ",pos)
